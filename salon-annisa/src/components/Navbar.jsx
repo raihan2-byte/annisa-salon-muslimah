@@ -1,14 +1,9 @@
-
 function Navbar() {
+  return (
+    <>
+      <div className="text-3xl bg-amber-400">navbar</div>
+    </>
+  );
+}
 
-    return (
-      <>
-        <div>
-          navbar
-        </div>
-      </>
-    )
-  }
-  
-  export default Navbar
-  
+export default Navbar;
