@@ -3,7 +3,7 @@ import next from "../assets/next.svg";
 const Card = ({ TreatmentName, TreatmentDesc, TreatmentPrice, isGenap }) => {
   return (
     <div
-      className={`text-center border-4 border-[#E4C9EB] flex justify-center m-auto h-[100vh] drop-shadow-[4px_4px_4px_rgba(0,0,0,0.25)] ${
+      className={`max-sm:h-[80vh] font-poppins text-center border-4 border-[#E4C9EB] flex justify-center m-auto h-[100vh] drop-shadow-[4px_4px_4px_rgba(0,0,0,0.25)] ${
         isGenap == true ? "bg-[#E4C9EB]" : "bg-white"
       }`}
     >

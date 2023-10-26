@@ -140,7 +140,7 @@ const perawatan = () => {
 
   const isMobile = useIsMobile();
   return (
-    <div>
+    <div className="font-syne">
       <div className="text-center text-4xl mt-10">Perawatan & Layanan</div>
       <div className="flex justify-center gap-3 ">
         <button

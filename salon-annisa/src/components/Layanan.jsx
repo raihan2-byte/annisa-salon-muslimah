@@ -6,7 +6,7 @@ import BodyCare from "../assets/body-care.svg";
 
 const Layanan = () => {
   return (
-    <div className="flex justify-between w-full bg-white max-w-[1750px] m-auto">
+    <div className="flex justify-between w-full bg-white max-w-[1750px] m-auto font-syne">
       <div className="max-sm:hidden w-1/2 flex justify-start mr-auto items-start">
         <img src={LayananFoto} alt="no photo" className="h-[500px]" />
       </div>

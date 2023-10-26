@@ -45,7 +45,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="block w-full shadow-md backdrop-saturate-200 backdrop-blur-2xl border border-white/80 bg-white text-black sticky top-0 z-10 px-0 py-2 bg-opacity-100 rounded-none h-max">
+    <nav className="font-syne block w-full shadow-md backdrop-saturate-200 backdrop-blur-2xl border border-white/80 bg-white text-black sticky top-0 z-10 px-0 py-2 bg-opacity-100 rounded-none h-max">
       <div className="flex items-center justify-between text-blue-gray-900 px-14 relative w-full">
         <a
           href="/"

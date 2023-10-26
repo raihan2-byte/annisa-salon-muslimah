@@ -12,12 +12,14 @@ const Hero = () => {
     >
       <div className="max-sm:w-full max-sm:p-2 w-1/2 m-auto text-center ">
         <div className="max-sm:flex max-sm:flex-col max-sm:gap-5 max-sm:p-3">
-          <div className="max-sm:text-3xl text-5xl">SALON</div>
-          <div className="max-sm:w-full max-sm:flex max-sm:flex-col max-sm:gap-3 w-[55%] m-auto">
-            <div className="max-sm:text-2xl text-4xl text-[#E4C9EB] font-sans">
+          <div className="max-sm:text-3xl text-5xl font-syne font-bold">
+            SALON
+          </div>
+          <div className="max-sm:w-full max-sm:flex max-sm:flex-col max-sm:gap-3 w-[65%] m-auto">
+            <div className="max-sm:text-2xl text-4xl text-[#E4C9EB] font-syne font-bold">
               ANNISA MUSLIMAH
             </div>
-            <div className="font-sans">
+            <div className="font-syne">
               Memenuhi kebutuhan para muslimah sesuai dengan syariat Islam
             </div>
           </div>
