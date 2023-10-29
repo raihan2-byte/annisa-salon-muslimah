@@ -6,10 +6,10 @@ function App() {
   return (
     <>
       <div className="">
+        <Home />
         <Testimonial />
         <Kontak />
         <Footer />
-        <Home />
       </div>
     </>
   );

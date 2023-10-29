@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -32,7 +31,7 @@ export default function App() {
         >
           <div>
             <div>
-              <SwiperSlide className="flex justify-evenly w-full bg-[#F6D0B9]">
+              <SwiperSlide className="flex justify-evenly w-full bg-[#F6D0B9] ">
                 <div className="flex justify-evenly flex-col w-1/2 bg-white p-5 mx-20 my-10 rounded-lg shadow-2xl">
                   <div className="flex border-b-2 pb-4">
                     <div className="rounded-full w-32 h-32">

@@ -1,11 +1,17 @@
+import Hero from "../components/Hero";
+import Layanan from "../components/Layanan";
 import Navbar from "../components/Navbar";
+import Perawatan from "../components/perawatan";
 
 function Home() {
   return (
     <>
-      <div className="bg-orange-700">
+      <div>
         <Navbar />
-        helo
+        <Hero />
+        <Layanan />
+        {/* <Card /> */}
+        <Perawatan />
       </div>
     </>
   );
