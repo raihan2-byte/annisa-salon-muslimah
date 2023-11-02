@@ -1,5 +1,4 @@
 import React from "react";
-// import { logo_gwf } from "../../assets/image";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 
